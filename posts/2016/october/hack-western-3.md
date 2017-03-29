@@ -6,7 +6,7 @@ keywords:
 - nodejs
 - angular
 categories:
-- hackathons
+- events
 tags:
 - ctf
 - hackathons

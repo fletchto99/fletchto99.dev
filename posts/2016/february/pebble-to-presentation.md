@@ -5,7 +5,7 @@ keywords:
 - meetup
 - pebblekit
 categories:
-- meetups
+- events
 tags:
 - toronto
 - pebble

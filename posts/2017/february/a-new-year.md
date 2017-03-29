@@ -10,7 +10,7 @@ keywords:
 - movember
 - gaming
 categories:
-- the lounge
+- personal
 tags:
 - 2016
 - future

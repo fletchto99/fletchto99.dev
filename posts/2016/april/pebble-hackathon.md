@@ -5,7 +5,7 @@ keywords:
 - hackathon
 - ottawa
 categories:
-- pebble
+- events
 tags:
 - pebble
 - hackathon

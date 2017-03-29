@@ -5,7 +5,7 @@ keywords:
 - computer
 - deadpool
 categories:
-- computer
+- personal
 tags:
 - computer
 - deadpool

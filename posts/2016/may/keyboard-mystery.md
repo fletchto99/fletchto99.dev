@@ -5,7 +5,7 @@ keywords:
 - keyboard
 - ottawa
 categories:
-- hardware
+- personal
 tags:
 - corsair
 - keyboard

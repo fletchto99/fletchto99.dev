@@ -6,7 +6,7 @@ keywords:
 - security
 - ottawa
 categories:
-- ctf
+- events
 tags:
 - ctf
 - whitehat
