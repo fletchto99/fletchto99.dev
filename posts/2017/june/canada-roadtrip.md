@@ -143,6 +143,6 @@ During our trip we also took some cool timelapse videos, check them out here:
 
 {% endspoiler %}
 
-** Many more images coming soon **
+** Image Gallery (Panoramas at end) **
 
 <!-- more -->
