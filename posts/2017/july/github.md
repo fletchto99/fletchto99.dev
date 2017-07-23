@@ -113,12 +113,10 @@ As an intern on the product security team I'm responsible for securing the GitHu
 
 On the weekends I've been out and aboot exploring the bay area and experiencing the San Francisco culture (which involves eating a sufficient amount of burritos). In the short few weeks I've been here I've had the opportunity to visit the Golden Gate bridge, get locked up in Alcatraz, experience the SF pride parade, overlook SF from the top of the twin peaks, watch the 4th of July fireworks, meet a few CEOs for large Tech companies and much much more! During the first week some of the box interns, Joseph and I went to check out the computer history museum learning all about what got us to the modern electronics. One of following the weekends Joseph and I went urban geocaching which was a conduit to exploring some of the lesser visited areas in San Francisco. The geocaching had us traveling all over SF from Delores Park to the painted ladies to the castro. Another weekend Joseph, Chris, Kim and I went for a swim at Chrissy fields beach.. so I can officially say I've been swimming on the west and east coasts now! I'm excited to see what the next few weekends of adventure will bring!
 
-{% image fancybox center clear https://images.fletchto99.com/blog/2017/july/github/5.jpg "Conquering SF one mountain at a time %}
+{% image fancybox center clear https://images.fletchto99.com/blog/2017/july/github/5.jpg "Conquering SF one mountain at a time" %}
 
 In summary this experience has been awesome so far and I would trade it for anything, check out some of these photos I took:
 
 {% youtube d2TPIUPmIZw %}
 
-
 <!-- more -->
-
