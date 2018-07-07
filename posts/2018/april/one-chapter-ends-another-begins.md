@@ -1,5 +1,4 @@
 title: "One Chapter Ends; Another Begins"
-disqusIdentifier: 0000000017
 keywords:
 - personal
 categories:
