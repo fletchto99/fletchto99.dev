@@ -171,7 +171,7 @@ Decoding the dots revealed the date which the piece of paper was printed: 201709
 For this challenge we were given access to a website which had a form client side authentication. We were tasked with breaking the authentication:
 
 
-- [ [Super Secure Authentication](https://pi.fletchto99.com/ctf-writeups/nsec/wasm.html) ]
+- [ [Super Secure Authentication](https://fletchto99.com/other/ctfs/nsec/wasm.html) ]
 
 
 {% spoiler Hint%}
