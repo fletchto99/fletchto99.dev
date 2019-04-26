@@ -13,24 +13,24 @@ tags:
 - guatemala
 - NPH
 - orphanage
-gallery: 
-- https://images.fletchto99.com/blog/2016/march/guatemala-trip/1.jpg "The team"
-- https://images.fletchto99.com/blog/2016/march/guatemala-trip/2.jpg "Transplanting Grass"
-- https://images.fletchto99.com/blog/2016/march/guatemala-trip/3.jpg "Football Match"
-- https://images.fletchto99.com/blog/2016/march/guatemala-trip/4.jpg "Linda & I"
-- https://images.fletchto99.com/blog/2016/march/guatemala-trip/5.jpg "Guatemalan Slums"
-- https://images.fletchto99.com/blog/2016/march/guatemala-trip/6.jpg "Terron wearing a traditional Guatemalan outfit"
-- https://images.fletchto99.com/blog/2016/march/guatemala-trip/7.jpg "Emily & Jocelyn with some girls in their dorm"
-- https://images.fletchto99.com/blog/2016/march/guatemala-trip/8.jpg "Kids chasing Jocelyn"
-- https://images.fletchto99.com/blog/2016/march/guatemala-trip/9.jpg "The grass transplanting team!"
-- https://images.fletchto99.com/blog/2016/march/guatemala-trip/10.jpg "Recycling bottles to make a garbage can"
-- https://images.fletchto99.com/blog/2016/march/guatemala-trip/11.jpg "All hard work! (Terron, Chloe, Emily, Sara)"
-- https://images.fletchto99.com/blog/2016/march/guatemala-trip/12.jpg "NPH Logo outside of the orphanage"
-- https://images.fletchto99.com/blog/2016/march/guatemala-trip/13.jpg "Stray dogs in Parramos"
-- https://images.fletchto99.com/blog/2016/march/guatemala-trip/14.jpg "Dancing on the last day"
-- https://images.fletchto99.com/blog/2016/march/guatemala-trip/15.jpg "CDSBEO Travellers photo outside of NPH"
-- https://images.fletchto99.com/blog/2016/march/guatemala-trip/16.jpg "Guatemalan Housing"
-- https://images.fletchto99.com/blog/2016/march/guatemala-trip/17.jpg "Santa Catalina Arch in Antigua"
+gallery:
+- https://images.fletchto99.com/blog/2016/march/guatemala-trip/1.jpg https://images.fletchto99.com/blog/2016/march/guatemala-trip/1_thumb.jpg "The team"
+- https://images.fletchto99.com/blog/2016/march/guatemala-trip/2.jpg https://images.fletchto99.com/blog/2016/march/guatemala-trip/2_thumb.jpg "Transplanting Grass"
+- https://images.fletchto99.com/blog/2016/march/guatemala-trip/3.jpg https://images.fletchto99.com/blog/2016/march/guatemala-trip/3_thumb.jpg "Football Match"
+- https://images.fletchto99.com/blog/2016/march/guatemala-trip/4.jpg https://images.fletchto99.com/blog/2016/march/guatemala-trip/4_thumb.jpg "Linda & I"
+- https://images.fletchto99.com/blog/2016/march/guatemala-trip/5.jpg https://images.fletchto99.com/blog/2016/march/guatemala-trip/5_thumb.jpg "Guatemalan Slums"
+- https://images.fletchto99.com/blog/2016/march/guatemala-trip/6.jpg https://images.fletchto99.com/blog/2016/march/guatemala-trip/6_thumb.jpg "Terron wearing a traditional Guatemalan outfit"
+- https://images.fletchto99.com/blog/2016/march/guatemala-trip/7.jpg https://images.fletchto99.com/blog/2016/march/guatemala-trip/7_thumb.jpg "Emily & Jocelyn with some girls in their dorm"
+- https://images.fletchto99.com/blog/2016/march/guatemala-trip/8.jpg https://images.fletchto99.com/blog/2016/march/guatemala-trip/8_thumb.jpg "Kids chasing Jocelyn"
+- https://images.fletchto99.com/blog/2016/march/guatemala-trip/9.jpg https://images.fletchto99.com/blog/2016/march/guatemala-trip/9_thumb.jpg "The grass transplanting team!"
+- https://images.fletchto99.com/blog/2016/march/guatemala-trip/10.jpg https://images.fletchto99.com/blog/2016/march/guatemala-trip/10_thumb.jpg "Recycling bottles to make a garbage can"
+- https://images.fletchto99.com/blog/2016/march/guatemala-trip/11.jpg https://images.fletchto99.com/blog/2016/march/guatemala-trip/11_thumb.jpg "All hard work! (Terron, Chloe, Emily, Sara)"
+- https://images.fletchto99.com/blog/2016/march/guatemala-trip/12.jpg https://images.fletchto99.com/blog/2016/march/guatemala-trip/12_thumb.jpg "NPH Logo outside of the orphanage"
+- https://images.fletchto99.com/blog/2016/march/guatemala-trip/13.jpg https://images.fletchto99.com/blog/2016/march/guatemala-trip/13_thumb.jpg "Stray dogs in Parramos"
+- https://images.fletchto99.com/blog/2016/march/guatemala-trip/14.jpg https://images.fletchto99.com/blog/2016/march/guatemala-trip/14_thumb.jpg "Dancing on the last day"
+- https://images.fletchto99.com/blog/2016/march/guatemala-trip/15.jpg https://images.fletchto99.com/blog/2016/march/guatemala-trip/15_thumb.jpg "CDSBEO Travellers photo outside of NPH"
+- https://images.fletchto99.com/blog/2016/march/guatemala-trip/16.jpg https://images.fletchto99.com/blog/2016/march/guatemala-trip/16_thumb.jpg "Guatemalan Housing"
+- https://images.fletchto99.com/blog/2016/march/guatemala-trip/17.jpg https://images.fletchto99.com/blog/2016/march/guatemala-trip/17_thumb.jpg "Santa Catalina Arch in Antigua"
 thumbnailImage: https://images.fletchto99.com/blog/2016/march/guatemala-trip/thumbnail.jpg
 date: 2016/3/8
 ---
