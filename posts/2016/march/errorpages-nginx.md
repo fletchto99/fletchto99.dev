@@ -6,7 +6,7 @@ keywords:
 - customization
 - webserver
 categories:
-- pi
+- technical
 tags:
 - nginx
 - errors
@@ -27,7 +27,7 @@ I've noticed that configuring consistent error pages for multiple subdomains/ser
 
 This quick tutorial aims to help you set up a way to simply include you existing error pages into existing or new Nginx configurations.
 
-### Prerequisites 
+### Prerequisites
 
 Before beginning create yourself some error pages and store them on your server somewhere. Personally I find it easiest to have them in a consistent location where you won't forget about them for example: `/etc/nginx/errors/errorpages/` but the location is totally up to you. I recommend the dual directory setup as we will be pointing the root for the error pages to the errors folder, while the path will be `/errorpages/` on your domain/subdomains.
 
@@ -63,26 +63,26 @@ The error_pages directive tells Nginx where to send the user once they've encoun
 ### Updating Server Configurations
 
 The last step is to update the various server blocks within your `sites-available`. If your server block already contains the `error_page` directives be sure to remove them so that it will use our newly generated configuration. Now all you need to do is `include errorpages.conf` and Nginx will now start to redirect errors to our newly setup error pages. You can include this configuration in any/all of your server blocks and it will adjust accordingly. For example:
- 
+
 {% codeblock lang:Nginx my.subdomain.com %}
 server {
         listen      80;
         server_name my.subdomain.com;
-        
+
         # Seperate webroot, does not need /errorpages
         root /home/demo/vhost/my.domain.com/;
-        
+
         # Include Nginx errorpages configuration
         include errorpages.conf;
 
         location / {
                 index index.html;
         }
-        
+
 }
 {% endcodeblock %}
 
- 
+
  So if you have subdomain a, b and c now a.domain.com/errorpages/, b.domain.com/errorpages and c.domain.com/errorpages will exist.
 
 ### Conclusion

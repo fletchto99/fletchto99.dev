@@ -5,7 +5,7 @@ keywords:
 - ssl
 - letsencrypt
 categories:
-- pi
+- technical
 tags:
 - nginx
 - ssl
@@ -25,7 +25,7 @@ Recently I've been messing around with Let's Encrypt and have found a simple way
 
 This guide aims to teach you how to automate the SSL renewal process even though Let's Encrypt doesn't fully support Nginx in this way, yet. It will take about 1/2hr if you don't already have Nginx setup and your initial certificates generated, otherwise it should only take a couple of minutes!
 
-### Prerequisites 
+### Prerequisites
 
 This guide is based off of my Raspberry Pi 2, which is running raspbain jessie lite. Before following this guide you will need to have [Nginx setup](http://workshop.botter.ventures/2013/09/05/how-to-setup-a-web-server-with-nginxphp-on-raspberry-pi/), along with you initial [certificates generated](https://www.digitalocean.com/community/tutorials/how-to-secure-nginx-with-let-s-encrypt-on-ubuntu-14-04) (follow steps 1-3, this guide serves as a modification of step 4).
 
@@ -65,7 +65,7 @@ location = /.well-known/acme-challenge/ {
 }
 {% endcodeblock %}
 
-Now that you have included that configuration in each of your server blocks, we must create the directory which will serve as the webroot for our `well-known` directory. In my case I created the directory `/etc/nginx/renew-ssl/www/`. **Note** that line 17 of the configuration also points to this directory, you must modify that if you change the location! 
+Now that you have included that configuration in each of your server blocks, we must create the directory which will serve as the webroot for our `well-known` directory. In my case I created the directory `/etc/nginx/renew-ssl/www/`. **Note** that line 17 of the configuration also points to this directory, you must modify that if you change the location!
 
 To ensure that all of your configurations are valid run `sudo nginx -t` if everything checks out you can reload nginx with `sudo service nginx reload`.
 
