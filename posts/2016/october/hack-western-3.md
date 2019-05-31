@@ -1,5 +1,4 @@
 title: "Hack Western 3 & CTFort"
-disqusIdentifier: 0000000010
 keywords:
 - ctfort
 - hackathons
@@ -63,13 +62,13 @@ There were 2 events which I chose to attend on saturday, both of which were done
 
 The talk by Digital Boundary Group can be found here: [https://github.com/okabe/hackwestern](https://github.com/okabe/hackwestern). It was a great talk! The TL;DR version is essentially one of the Digital Boundary Group employees mapped the internet & its IRC servers. He found many interesting things including IRC Botnets, Torrent Release Groups and even some local London, Ontario IRC server! He did this by using [Hurricane Electric's BGP services](http://bgp.he.net/) to find top level IPs for specific, countries and ISPs and then mapping out their networks and finally looking for servers which responded with IRC like traffic on port 6667. I highly suggest taking a look at the presentation for an in depth explanation.
 
-The second event was a forensics challenge provided Magnetic Forensics to demonstrate how forensics can be very difficult. I ended up placing **fourth** in this challenge! For this challenge we were given a phone backup of a person who had committed a theft. Our objectives were to find the apps he used to communicate with the other thieves, the thieves online names, the location history of the phone, and if possible the real name of the owner of the phone. What made this challenge complex was that there were hundreds of apps and thousands of files/folders. 
+The second event was a forensics challenge provided Magnetic Forensics to demonstrate how forensics can be very difficult. I ended up placing **fourth** in this challenge! For this challenge we were given a phone backup of a person who had committed a theft. Our objectives were to find the apps he used to communicate with the other thieves, the thieves online names, the location history of the phone, and if possible the real name of the owner of the phone. What made this challenge complex was that there were hundreds of apps and thousands of files/folders.
 
 For this challenge we were given a few hints saying look for: odd files in the downloads folder, log files, chat database, .eml files and app (Pokemon GO) that might track location data. After a recursive find I came across all of the *.eml files, which had revealed that there were 3 users involved: A, B and C. I also looked for the log files which were from an IRC app and they too had the same 3 users. Also in the search for log files were the pokemon go logs for the location history. Next I found a sql lite database for Whatsapp which had the same 3 usernames but their passwords were encrypted. When browsing the downloads folder I noticed there was a key.store file, so using this key file I was able to decrypt the realnames which were encrypted with AES-128. Finally to determine the real name of phone's owner I noticed that the owner joined IRC as user "A" which matched up with the person's decrypted realname in the whatsapp database.
- 
+
 # Closing Ceremonies
 
-Late sunday morning we pitched our idea to many judges. Many of them seemed quite impressed with the idea and were really interested in what we learned. One of the judges though that it was awesome that we compiled our own version of Nginx to change the server header. He also seemed quite intrigued about the fact that we supported SSL through Let's Encrypt. Also the group beside us made a game for the Rift so I got to try VR for the first time! Unfortunately we didn't win this time around but it was a great event! I plan to continue building out CTFort and if you're interested I encourage you to also contribute: [https://github.com/fletchto99/ctfort](https://github.com/fletchto99/ctfort). 
+Late sunday morning we pitched our idea to many judges. Many of them seemed quite impressed with the idea and were really interested in what we learned. One of the judges though that it was awesome that we compiled our own version of Nginx to change the server header. He also seemed quite intrigued about the fact that we supported SSL through Let's Encrypt. Also the group beside us made a game for the Rift so I got to try VR for the first time! Unfortunately we didn't win this time around but it was a great event! I plan to continue building out CTFort and if you're interested I encourage you to also contribute: [https://github.com/fletchto99/ctfort](https://github.com/fletchto99/ctfort).
 
 {% image fancybox center clear https://images.fletchto99.com/blog/2016/october/hack-western-3/3.jpg "Closing Ceremonies" %}
 

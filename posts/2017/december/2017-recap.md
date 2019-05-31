@@ -1,5 +1,4 @@
 title: "2017: The future is now"
-disqusIdentifier: 0000000016
 keywords:
 - github
 - technology

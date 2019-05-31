@@ -1,5 +1,4 @@
-title: BSides Ottawa CTF - Second Place!
-disqusIdentifier: 0000000009
+title: BSides Ottawa CTF - Second place!
 keywords:
 - bsides ottawa
 - whitehat
@@ -20,14 +19,14 @@ Last thursday and friday I had the chance to participate in my first professiona
 
 {% image center clear https://images.fletchto99.com/blog/2016/october/bsides-ottawa/banner.png %}
 
-Last thursday and friday I had the chance to participate in my first professional level CTF at BSides Ottawa. Hopeless.carleton, the team I was on, came second overall with a remarkable 3600 points! We were actually in first place until roughtly the last minute, when ["That @Shopify Team"](https://twitter.com/argilo/status/782207548644528128) found one more flag putting them 250 points ahead of us. It was a close fight until the end! 
+Last thursday and friday I had the chance to participate in my first professional level CTF at BSides Ottawa. Hopeless.carleton, the team I was on, came second overall with a remarkable 3600 points! We were actually in first place until roughtly the last minute, when ["That @Shopify Team"](https://twitter.com/argilo/status/782207548644528128) found one more flag putting them 250 points ahead of us. It was a close fight until the end!
 
 {% image fancybox center clear https://images.fletchto99.com/blog/2016/october/bsides-ottawa/1.png "Final results" %}
 
 ## One small note
 
 The organizers dropped one final challenge on us with about 2 hours left (thought it only felt like 1/2hr). It was a web challenge which I chose to work on. We were told to get the flag.txt which was located at the root of the box. We were given a ruby webshell on the box however when trying to read the flag we would get permissions denied. Through some investigation I determined that the account "Cyber" which the app was running under was part of the sudoers group however when running `sudo cat /flag.txt` the web shell would crash when waiting for the interactive input for the password. My teammate thought that this might be a weak creds attack and a nmap scan revealed that SSH was open to the box so all I needed to do was get the password for the *Cyber* account.
- 
+
  So with 5 minutes left I started trying every possible password from "password" to "admin" to "qwerty" to even "CyberCyberCyber" (the name of the ruby app). After all that I had no luck. With about 30 or so seconds left I noticed that "That Team" got it, so I though let's just do `cat .bash_history` to see if they might have left anything useful behind, but they didn't. After talking to "that team" afterwords it turns out the password for the *Cyber* account was just _Cyber_. If I would have gotten that we would have won since the flag was worth 300 points. Moral of the story, always try the username as the password and never use your username as your password.
 
 
@@ -50,8 +49,8 @@ What makes these two scripts different?
 {% spoiler "Solving The Office Space script error" %}
 
 Solving this problem was quite trivial. First I started by analyzing the 3 files, we can see two copies of a script for a show and also a zip file that is encrypted with a password. I came to the conclusion that in the scripts there is likely the password for the zip hidden.
- 
-By analyzing the differences between the first and second version of the provided scripts we can see that one of the character's names `PETER` is missing from the first script. In the second script we see the addition of the word "backwards". 
+
+By analyzing the differences between the first and second version of the provided scripts we can see that one of the character's names `PETER` is missing from the first script. In the second script we see the addition of the word "backwards".
 
 {% image fancybox center clear https://images.fletchto99.com/blog/2016/october/bsides-ottawa/2.png "Diff of the scripts" %}
 
@@ -99,7 +98,7 @@ When you open the stream in wireshark you can see that is lots of UDP traffic of
 
 {% image center clear https://images.fletchto99.com/blog/2016/october/bsides-ottawa/rtpdecoded.png "RTP Decoded" %}
 
-Next you need to analyze the stream, to do that go into Telephony -> RTP -> Stream Analysis. From here you will be prompted to save or play the stream. Here is what it comes out to:  
+Next you need to analyze the stream, to do that go into Telephony -> RTP -> Stream Analysis. From here you will be prompted to save or play the stream. Here is what it comes out to:
 
 <audio controls>
     <source src="https://images.fletchto99.com/blog/2016/october/bsides-ottawa/audio.wav" type="audio/wav">
@@ -122,7 +121,7 @@ What is stegsolve?
 
 {% spoiler "Solving Harambe" %}
 
-First things first, let's figure out what type of file harambe is. After a quick `file harambe...` I determined that it was an image of harambe: 
+First things first, let's figure out what type of file harambe is. After a quick `file harambe...` I determined that it was an image of harambe:
 
 {% image center clear https://images.fletchto99.com/blog/2016/october/bsides-ottawa/6.png "Poor Harambe" %}
 
@@ -148,7 +147,7 @@ Mascros, Macros, Macros Everywhere!
 
 {% spoiler "Solving Humpty Dance" %}
 
-Like most other forensics challenges the first thing I needed to do was to determine the file type. By using the `file` command I was able to determine that this challenge is using a word 2007+ document. After flipping the extension over to `.doc` and opening the document up I was greeted with a lovely message that went something like: "This document contains macros, we recommend disabling them for your safety". That was my cue enable macros and view what it is trying to do. When trying to edit the macro your are prompted for a password, so let's get by this. 
+Like most other forensics challenges the first thing I needed to do was to determine the file type. By using the `file` command I was able to determine that this challenge is using a word 2007+ document. After flipping the extension over to `.doc` and opening the document up I was greeted with a lovely message that went something like: "This document contains macros, we recommend disabling them for your safety". That was my cue enable macros and view what it is trying to do. When trying to edit the macro your are prompted for a password, so let's get by this.
 
 I found this [nifty little article](http://stackoverflow.com/a/7835861/1380520) on stack overflow about bypassing the password by changing `DPB` to `DPx` in a hex editor. To do this we first we need to open the `.doc` in our favourite compression tool AKA winrar and extract `word/vbaProject.bin`. Next open vbaProject.bin in a hex editor and search for `DPB=` replacing it with `DPx=` like so:
 
@@ -250,7 +249,7 @@ Somethings not right with the ending music...
 
 {% spoiler "Solving Mario X" %}
 
-I attempted to solve this during the CTF but was unable to. Credits go to my teammate [Nadeem](https://twitter.com/ndouba) for solving this forensics challenge after the CTF was over. 
+I attempted to solve this during the CTF but was unable to. Credits go to my teammate [Nadeem](https://twitter.com/ndouba) for solving this forensics challenge after the CTF was over.
 
 If you watch the video around 33 seconds into the video you start to hear odd sounds that don't go with the flow of the music. So if you open the video up in something such as audacity or audition and then press the Spectrogram button (audition it is called "show spectral frequency display") you will see that the flag has been encoded into the audio:
 

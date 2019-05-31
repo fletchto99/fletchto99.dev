@@ -1,5 +1,4 @@
 title: "I'm in San Francisco?!?!!"
-disqusIdentifier: 0000000015
 keywords:
 - github
 - technology

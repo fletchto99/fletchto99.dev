@@ -1,5 +1,4 @@
-title: Simple Custom Nginx Error Pages
-disqusIdentifier: 0000000004
+title: Simple custom Nginx error pages
 keywords:
 - nginx
 - errors

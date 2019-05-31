@@ -1,5 +1,4 @@
-title: "I Roadtripped Canada!"
-disqusIdentifier: 0000000014
+title: "I road tripped across Canada!"
 keywords:
 - roadtrip
 - Canada

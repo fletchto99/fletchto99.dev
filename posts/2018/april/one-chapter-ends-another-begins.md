@@ -1,4 +1,4 @@
-title: "One Chapter Ends; Another Begins"
+title: "One chapter ends; another begins"
 keywords:
 - personal
 categories:

@@ -1,5 +1,4 @@
-title: Automating Let's Encrypt with Nginx
-disqusIdentifier: 0000000002
+title: Automating Letsencrypt with Nginx
 keywords:
 - nginx
 - ssl

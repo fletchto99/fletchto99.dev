@@ -1,5 +1,4 @@
-title: The Shocking Keyboard Mystery
-disqusIdentifier: 0000000006
+title: The shocking keyboard mystery
 keywords:
 - mystery
 - keyboard

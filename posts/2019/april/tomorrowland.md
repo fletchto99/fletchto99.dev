@@ -1,4 +1,4 @@
-title: The Hymn Frozen Lotus
+title: The hymn of the frozen lotus
 keywords:
 - festivals
 - tomorrowland

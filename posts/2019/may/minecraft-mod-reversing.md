@@ -1,4 +1,4 @@
-title: "Minecraft mods: Reversing style"
+title: "Minecraft mods: reversing style"
 keywords:
 - security
 - gaming

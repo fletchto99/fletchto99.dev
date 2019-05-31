@@ -1,4 +1,4 @@
-title: Living a Dream and I don't want to wake up
+title: Living a dream and I don't want to wake up
 keywords:
 - github
 - security

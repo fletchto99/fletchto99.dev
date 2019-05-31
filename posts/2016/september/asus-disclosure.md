@@ -1,5 +1,4 @@
-title: ASUS Broken API Authentication
-disqusIdentifier: 0000000008
+title: ASUS broken API authentication
 keywords:
 - asus
 - whitehat
@@ -37,13 +36,13 @@ After inspecting the code I was most certainly not logged in, so there's no way 
 Nope, not really useful. So far we know that there is a `usernameAndPassword` hardcoded value which is being set as an authorization header for an API call. The variable was in the format of `var usernameAndPassword = 'Authorization: Basic c29tZVVzZXI6c29tZVBhc3M='` (note the value has been changed) and this is being posted to all API endpoints. After some basic analysis and understanding how basic authentication works we can determine that the value is actually just the base64 encoded credentials for whatever account this is. This data is **NOT** encrypted nor hashed and can easily be reversed by [decoding the base64](http://base64decode.net/) string.
 
 {% image fancybox center clear https://images.fletchto99.com/blog/2016/september/asus-disclosure/3.png "Decoding base64 encoded data" %}
- 
+
  So surly this is just some low level account that *isn't* really necessary and doesn't have any access... fingers crossed. So after some simple research I was able to find the pretty login page to the RMA system by going to the root of the API. No complex URL fuzzing required, it was found in about 30 seconds. *Side note: Shouldn't this kind of login page be only accessible internally?*
- 
+
 {% image fancybox center clear https://images.fletchto99.com/blog/2016/september/asus-disclosure/4.png "Pretty login page for ASUS RMA system" %}
- 
+
  So far we have some login credentials and a login page. The last step is to actually check if the page accepts the credentials and where it brings you. And tada I'm in. So at this point I'm freaking out panicking to find the logout button and get this reported ASAP. From my brief 5 seconds in the system it appears that the account was not only valid but also an administrator account.
- 
+
 {% image fancybox center clear https://images.fletchto99.com/blog/2016/september/asus-disclosure/5.png "Holy crap, we're in boys!" %}
 
 Ok so now that I've found this I needed to report it. Before I send it off I do a little bit more information gathering determining that there are a total of 3 forms which have this information hardcoded within. After gathering all of the above information and taking the relevant screenshots I put together a report to send ASUS... only where do I send it to? ASUS doesn't have a fancy whitehat program like most tech giants so I had to search for a secure way to contact them. After a while of looking I came across one line in their privacy policy stating if a technical vulnerability is found I should email [privacy@asus.com](mailto:privacy@asus.com). So I sent them a report with all of the required information.

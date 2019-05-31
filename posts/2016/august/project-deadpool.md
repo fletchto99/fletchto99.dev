@@ -1,5 +1,4 @@
 title: Project Deadpool
-disqusIdentifier: 0000000007
 keywords:
 - setup
 - computer
@@ -10,7 +9,7 @@ tags:
 - computer
 - deadpool
 thumbnailImage: https://images.fletchto99.com/blog/2016/august/project-deadpool/thumbnail.png
-gallery: 
+gallery:
 - https://images.fletchto99.com/blog/2016/august/project-deadpool/thumbnail.png
 - https://images.fletchto99.com/blog/2016/august/project-deadpool/1.png
 - https://images.fletchto99.com/blog/2016/august/project-deadpool/2.png
@@ -103,7 +102,7 @@ Since this was my second time building a computer my main goal was aesthetics. I
 4. Cable combs were hard to find, and way to expensive to ship to Canada (once my student loans were depleted)
 
 Here's how I fixed these issues:
-1. Well this fix may seem cheesy and is only a short term, cheap fix, all I did was wrap the multicolored cables tightly in matte black electric tape. This helps the cables look hidden so people's attention isn't drawn there. My long term goal will be to custom sleeve them. 
+1. Well this fix may seem cheesy and is only a short term, cheap fix, all I did was wrap the multicolored cables tightly in matte black electric tape. This helps the cables look hidden so people's attention isn't drawn there. My long term goal will be to custom sleeve them.
 2. I attempted a few things to fix this issue. My first thought was to take a red sharpie and marker over the white area of the logo. While this did produce a red color, the shading was very uneven and it looked terrible. My next plan was to tape some red plastic over the LED, and again this worked but the lighting was uneven. So I ended up bying a "sample" of red vinyl wrap for a car (5"x5") for like 3 bucks on e-bay, shipped from within Canada. I then took a piece of paper and traced the area of the dragon LED. I then used this paper template to cut the vinyl sticker and carefully applied it over the sticker. It produced some nice results, as seen in the images below.
 3. This fix was quite simple. I grabbed some magnets from the dollar store and placed them between the top of the case and the roof hatch. They magnets are black so they blend in well however they give almost 1cm for airflow, which is plenty for the top mounted H100i v2.
 4. Lastly the hardest challenge was finding cable combs for my sleeved cables. First of all the E-series sleeved cables had 26 wires instead of 24 for the ATX cable, so this didn't meet most requirements for cable combs. I also wanted to go with red/black cable combs instead of clear, since I don't really like the look of clear ones. I ended up finding some cable combs but it would have been over $50 just to get them to my place. So I resorted to my next best option, make some cable combs my self. I found a nice template online and modified it to suit my needs: 14pin Gfx card (6 & 6 + 2) and the 26 pin ATX. I was able to print these in red & black for free at my university's maker space and boy did they ever turn out great!

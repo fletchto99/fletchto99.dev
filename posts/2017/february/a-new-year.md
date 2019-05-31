@@ -1,5 +1,4 @@
-title: "2016: Securing My Future"
-disqusIdentifier: 0000000012
+title: "2016: Securing my future"
 keywords:
 - review
 - year

@@ -1,5 +1,4 @@
-title: "Reflection: Guatemala Mission Trip"
-disqusIdentifier: 0000000003
+title: "Reflection: Guatemala mission trip"
 keywords:
 - ndchs
 - guatemala

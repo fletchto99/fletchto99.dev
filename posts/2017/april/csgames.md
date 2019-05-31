@@ -1,5 +1,4 @@
-title: "CSGames - uOttawa 2nd Place!"
-disqusIdentifier: 0000000013
+title: "CSGames - uOttawa 2nd place!"
 keywords:
 - competition
 - CSGames

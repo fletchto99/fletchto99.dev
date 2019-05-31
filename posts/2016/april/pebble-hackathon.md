@@ -1,5 +1,4 @@
-title: Time for Another Round
-disqusIdentifier: 0000000005
+title: Time for another round
 keywords:
 - pebble
 - hackathon

@@ -1,5 +1,4 @@
-title: Pebble Toronto Presentation
-disqusIdentifier: 0000000001
+title: Pebble Toronto presentation
 keywords:
 - pebble
 - meetup
@@ -18,7 +17,7 @@ gallery:
 - https://images.fletchto99.com/blog/2016/february/pebble-to-presentation/2.jpg https://images.fletchto99.com/blog/2016/february/pebble-to-presentation/2_thumb.jpg
 - https://images.fletchto99.com/blog/2016/february/pebble-to-presentation/5.jpg https://images.fletchto99.com/blog/2016/february/pebble-to-presentation/5_thumb.jpg
 - https://images.fletchto99.com/blog/2016/february/pebble-to-presentation/4.jpg https://images.fletchto99.com/blog/2016/february/pebble-to-presentation/4_thumb.jpg
-thumbnailImage: https://images.fletchto99.com/blog/2016/february/pebble-to-presentation/1.jpg
+thumbnailImage: https://images.fletchto99.com/blog/2016/february/pebble-to-presentation/thumbnail.png
 date: 2016/2/24
 ---
 
