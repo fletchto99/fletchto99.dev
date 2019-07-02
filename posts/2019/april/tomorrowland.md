@@ -95,7 +95,7 @@ The stages in the village were spectacular - with pyro tehcnics, fireworks, CO2 
 
 My favorite set of the weekend was Charlotte de Witte's set in the Garden of Madness - she absolutely killed it. The energy at her set was through the roof, I still remember waking up the next day feeling like my legs and arms were going to fall off from dancing so much! I didn't get too much video from her set since I think it's really important to live in the moment at events like these however I did manage to capture a brief glimpse of the insane atmosphere:
 
-{% html5video '100%' '500px' 'video/mp4' %} https://images.fletchto99.com/blog/2019/april/tomorrowland/charlotte.mp4 {% endhtml5video %}
+{% video https://images.fletchto99.com/blog/2019/april/tomorrowland/charlotte.mp4 100% Crazy lazers!!! %}
 
 When I got back from Tomorrowland I was really excited to see that Charlotte was coming to Denver. As I write this I was actually able to see her here in Denver this past weekend. I was even lucky enough to meet Charlotte after her set and grab this amazing photo! I've seen her live 4 times now and she certainly doesn't disappoint.
 
