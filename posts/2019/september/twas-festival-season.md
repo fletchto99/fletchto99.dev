@@ -42,7 +42,7 @@ gallery:
 - https://images.fletchto99.com/blog/2019/september/twas-festival-season/25.jpg https://images.fletchto99.com/blog/2019/september/twas-festival-season/25_thumb.jpg "Oh yeah and the core"
 - https://images.fletchto99.com/blog/2019/september/twas-festival-season/26.jpg https://images.fletchto99.com/blog/2019/september/twas-festival-season/26_thumb.jpg "Laura and I at the Tomorrowland mainstage"
 - https://images.fletchto99.com/blog/2019/september/twas-festival-season/27.jpg https://images.fletchto99.com/blog/2019/september/twas-festival-season/27_thumb.jpg "Claptone day break at mainstage"
-- https://images.fletchto99.com/blog/2019/september/twas-festival-season/28.jpg https://images.fletchto99.com/blog/2019/september/twas-festival-season/28_thumb.jpg "Some connect for at Atmosphere"
+- https://images.fletchto99.com/blog/2019/september/twas-festival-season/28.jpg https://images.fletchto99.com/blog/2019/september/twas-festival-season/28_thumb.jpg "Some connect four at Atmosphere"
 - https://images.fletchto99.com/blog/2019/september/twas-festival-season/29.jpg https://images.fletchto99.com/blog/2019/september/twas-festival-season/29_thumb.jpg "RIP freedom stage"
 - https://images.fletchto99.com/blog/2019/september/twas-festival-season/30.jpg https://images.fletchto99.com/blog/2019/september/twas-festival-season/30_thumb.jpg "Until next year!"
 
@@ -72,6 +72,6 @@ To wrap up an amazing summer of festivals I got to attend Tomorrowland. Unfortun
 
 {% image fancybox center clear https://images.fletchto99.com/blog/2019/september/twas-festival-season/4.jpg "Tomorrowland Discord crew" %}
 
-Finally to close off August I went to Flux Pavilion with a friend here in Denver. In summary it's been a pretty awesome summer and it's not even over! I've got a good lineup of festivals/shows coming up over the next few months. One I'm really looking forward to is Timewarp USA! Until next time. It's truly important to cherish the friends you make in the music community
+Finally, to close off the summer, I went to Flux Pavilion with a friend here in Denver. In summary it's been a pretty awesome summer and it's not even over! I've got a good lineup of festivals/shows coming up over the next few months. One I'm really looking forward to is Timewarp USA! Until next time. It's truly important to cherish the friends you make in the music community
 
 <!-- more -->
