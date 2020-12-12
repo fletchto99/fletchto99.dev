@@ -16,12 +16,12 @@ thumbnailImage: https://images.fletchto99.com/blog/2016/november/pebble-app-sand
 date: 2016/11/20
 ---
 
-Last month Rob and I found a vulnerability in the Pebble app ecosystem which enabled us to spoof a Pebble appstore application...
+Last month Rob and I found a vulnerability in the Pebble app ecosystem which enabled us to spoof a Pebble appstore application. This was assigned CVE-2016-10702.
 
 <!-- excerpt -->
 {% image center clear https://images.fletchto99.com/blog/2016/november/pebble-app-sandbox-escape/banner.png %}
 
-Last month Rob and I found a vulnerability in the Pebble app ecosystem which enabled us to access a target application's sandbox. Essentially the flaw enables a malicious application to read the flash storage and access the JavaScript instance of the target app once the malicious app is opened.
+Last month Rob and I found a vulnerability in the Pebble app ecosystem which enabled us to access a target application's sandbox. Essentially the flaw enables a malicious application to read the flash storage and access the JavaScript instance of the target app once the malicious app is opened. Ultimately this was assigned CVE-2016-10702.
 
 ## The Vulnerability
 
