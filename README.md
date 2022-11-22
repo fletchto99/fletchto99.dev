@@ -2,4 +2,4 @@
 
 # Matt's Blog
 
-An archive of all of my blog posts which can be found at [https://blog.fletchto99.com](https://blog.fletchto99.com)
+An archive of all of my blog posts which can be found at [https://fletchto99.dev](https://fletchto99.dev)
