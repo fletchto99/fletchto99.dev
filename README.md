@@ -1,4 +1,6 @@
-![uptime](https://badgen.net/uptime-robot/month/m784277999-6b97a71ae672240b49530b15) ![response](https://badgen.net/uptime-robot/response/m784277999-6b97a71ae672240b49530b15)
+![Uptime](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/fletchto99/status.fletchto99.com/master/api/blog/uptime.json) ![Response](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/fletchto99/status.fletchto99.com/master/api/blog/response-time.json)
+
+
 
 # Matt's Blog
 
